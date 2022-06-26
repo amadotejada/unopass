@@ -10,9 +10,12 @@ def op_path() -> str:
     try:
         cmd = "op"
         locate = shutil.which(cmd)
-        return locate
+        if locate is not None:
+            return locate
+        else:
+            raise Exception("error: op cli not found\nhttps://github.com/amadotejada/unopass")
     except Exception as e:
-        print(e.output.decode("utf-8"))
+        print(e)
         exit(1)
 
 
