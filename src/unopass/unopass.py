@@ -13,7 +13,7 @@ def op_path() -> str:
         if locate is not None:
             return locate
         else:
-            raise Exception("error: op cli not found\nhttps://github.com/amadotejada/unopass")
+            raise FileNotFoundError("error: op cli not found\nhttps://github.com/amadotejada/unopass")
     except Exception as e:
         print(e)
         exit(1)
