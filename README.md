@@ -7,6 +7,8 @@
 
 This eliminates the need of storing secrets in env, or conf files and provides a more secured local workflow.
 
+<img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/go-old/go-old.png" height="50"> Go version: [HERE](https://github.com/amadotejada/unopass-go)
+
 Common use cases:
 * Access AWS CLI, Google Cloud Platform secrets
 * Access API secrets in your scripts
