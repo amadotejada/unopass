@@ -15,7 +15,7 @@ Common use cases:
 * Use with other tools like GAM, see: [GAMpass](https://github.com/amadotejada/GAMpass)
 ##
 
-<img src="https://i.ibb.co/7V3vCB0/gif.gif" width="100%">
+<img src="https://i.ibb.co/rkqdTfY/gif1.gif" width="100%">
 
 Note: *unopass* is early alpha software and should be tested extensively.
 
