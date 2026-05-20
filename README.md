@@ -1,8 +1,5 @@
 # unopass
 
-##### Written by [Amado Tejada](https://www.linkedin.com/in/amadotejada/)
-
-##
 *unopass* is a convenient python module that allows you to retrieve secrets from the 1Password CLI at runtime using your biometrics. (E.g. Touch ID, etc.)
 
 This eliminates the need of storing secrets in env, or conf files and provides a more secured local workflow.
